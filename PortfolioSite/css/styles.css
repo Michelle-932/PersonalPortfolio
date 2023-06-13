@@ -4056,6 +4056,7 @@ img.u-pull-left {
     margin-bottom : var(--vspace-0_125);
 }
 
+
 .contact-links,
 .contact-social {
     font-size   : var(--text-md);
@@ -4063,6 +4064,7 @@ img.u-pull-left {
     line-height : var(--vspace-1_25);
     color       : var(--color-text-light);
 }
+
 
 .contact-links a,
 .contact-social a {
@@ -4078,7 +4080,11 @@ img.u-pull-left {
 
 .contact-social {
     list-style  : none;
-    margin-left : 0;
+    margin-left: 0;
+}
+
+.text-pretitle2 {
+    margin-left: 10vw;
 }
 
 .contact-social li {
@@ -4095,7 +4101,7 @@ img.u-pull-left {
 }
 
 .contact-btn {
-    margin-left  : auto;
+    margin-left  : 5vw;
     margin-right : 5vw;
 }
 
