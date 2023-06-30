@@ -1,5 +1,5 @@
 /* =================================================================== 
- * Luther Main Stylesheet
+ * Main Stylesheet
  * Template Ver. 1.0.0
  * 02-15-2021
  * ------------------------------------------------------------------
@@ -95,15 +95,15 @@
     /* color-1(#eabe7c)
      * color-2(#23967f)
      */
-    --color-1 : rgb(202, 59, 141);
+    --color-1 : hsla(36, 72%, 70%, 1);
     --color-2 : hsla(168, 62%, 36%, 1);
 
     /* theme color variations
      */
-    --color-1-lighter : rgb(205, 154, 183);
-    --color-1-light   : rgb(203, 118, 166);
-    --color-1-dark    : hsla(326, 57%, 51%, 1);
-    --color-1-darker  : rgb(205, 71, 147);
+     --color-1-lighter : hsla(36, 72%, 90%, 1);
+     --color-1-light   : hsla(36, 72%, 80%, 1);
+     --color-1-dark    : hsla(36, 72%, 60%, 1);
+     --color-1-darker  : hsla(36, 72%, 50%, 1);
     --color-2-lighter : hsla(168, 62%, 56%, 1);
     --color-2-light   : hsla(168, 62%, 46%, 1);
     --color-2-dark    : hsla(168, 62%, 26%, 1);
@@ -3447,6 +3447,23 @@ img.u-pull-left {
 
 .about-expertise .skills-list li:not(:last-child)::after {
     content : ", ";
+}
+
+.about-expertise .skills-list2 {
+    list-style  : none;
+    margin-top  : var(--vspace-1);
+    margin-left : 0;
+}
+
+.about-expertise .skills-list2 li {
+    display      : inline-block;
+    padding-left : 0;
+}
+
+.about-expertise .skills-list2 li img {
+    width: 100px;
+    outline: 5px;
+    outline-color: white;
 }
 
 /* --------------------------------------------------------------------
