@@ -3234,12 +3234,12 @@ img.u-pull-left {
 }
 
 .intro-social a {
-    color : var(--color-text-light);
+    color : white;
 }
 
 .intro-social a:focus,
 .intro-social a:hover {
-    color : white;
+    color : var(--color-1);
 }
 
 /* --------------------------------------------------------------------
@@ -3416,7 +3416,8 @@ img.u-pull-left {
 
 .about-info__text {
     padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
-    margin-left : -4rem;
+    margin-left : 4rem;
+
 }
 
 .about-info__text .text-pretitle {
@@ -3426,6 +3427,10 @@ img.u-pull-left {
 .about-info__text .btn {
     margin-top    : var(--vspace-1);
     margin-bottom : 0;
+}
+
+.attention-getter {
+    background-color:rgba(0, 0, 0, 0.06);
 }
 
 /* --------------------------------------------------------------------
@@ -4080,13 +4085,13 @@ img.u-pull-left {
     font-size   : var(--text-md);
     font-weight : 300;
     line-height : var(--vspace-1_25);
-    color       : var(--color-text-light);
+    color       : white;
 }
 
 
 .contact-links a,
 .contact-social a {
-    color : var(--color-text-light);
+    color : white;
 }
 
 .contact-links a:focus,
