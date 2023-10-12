@@ -16,7 +16,7 @@ Here are some of the technologies and tools I frequently use:
 - Backend Development: Node.js, Express.js
 - Databases: MongoDB
 - Version Control: Git, GitHub
-- Deployment: Heroku, Netlify
+- Deployment: Heroku, Netlify, Cyclic
 - Other Tools: VS Code, Figma, Adobe Creative Suite
 
 ## Getting Started
