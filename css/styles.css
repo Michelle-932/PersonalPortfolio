@@ -3437,7 +3437,7 @@ img.u-pull-left {
  * ## about expertise
  * -------------------------------------------------------------------- */
 .about-expertise {
-    padding-top : calc(6 * var(--space));
+    padding-top : calc(1 * var(--space));
 }
 
 .about-expertise .skills-list {
